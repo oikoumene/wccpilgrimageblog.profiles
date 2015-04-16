@@ -22,4 +22,10 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+    <browser:jbot
+        directory="jbot"
+        layer=".interfaces.IProductSpecific" />
+
+    
+
 </configure>
