@@ -31,10 +31,11 @@ setup(name='wccpilgrimageblog.profiles',
           'collective.grok',
           'plone.app.referenceablebehavior',
           'collective.dexteritytextindexer',
-          'plone.app.multilingual',
-          'plone.multilingualbehavior',
+          # 'plone.app.multilingual',
+          # 'plone.multilingualbehavior',
           'plone.app.versioningbehavior',
           # -*- Extra requirements: -*-
+          'z3c.jbot',
       ],
       extras_require={
           'test': [
